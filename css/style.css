@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f1f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1f4e79;
+}
+
+.buscador {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    width: 220px;
+}
+
+button {
+    padding: 8px 14px;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163a5a;
+}
+
+.caja {
+    background-color: white;
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    display: none; /* Se ocultan hasta que haya datos */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 23 - Aplicación del Tiempo</title>
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Aplicación del Tiempo</h1>
+
+    <!-- Requisito 1: campo para escribir la ubicación -->
+    <div class="buscador">
+        <input type="text" id="ubicacion" placeholder="Escribe una ciudad, ej: Bogota">
+        <button id="btnBuscar">Buscar</button>
+        <!-- Requisito 4: botón para refrescar -->
+        <button id="btnActualizar">Actualizar</button>
+    </div>
+
+    <p id="mensaje"></p>
+
+    <!-- Requisito 2: clima actual -->
+    <div id="clima-actual" class="caja">
+        <h2 id="lugar"></h2>
+        <p>Condición: <span id="condicion"></span></p>
+        <p>Temperatura: <span id="temperatura"></span></p>
+        <p>Velocidad del viento: <span id="viento"></span></p>
+        <p>Probabilidad de lluvia: <span id="lluvia"></span></p>
+    </div>
+
+    <!-- Requisito 3: 24 horas anteriores y 24 horas siguientes -->
+    <div class="caja">
+        <h2>Últimas 24 horas</h2>
+        <ul id="lista-pasado"></ul>
+    </div>
+
+    <div class="caja">
+        <h2>Próximas 24 horas</h2>
+        <ul id="lista-futuro"></ul>
+    </div>
+
+ 
+    <script src="js/script.js"></script>
+</body>
+</html>
